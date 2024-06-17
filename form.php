@@ -13,7 +13,7 @@ $parola = $_GET['parola'];
     <title>Form PHP</title>
   </head>
   <body>
-    <p><?php echo $paragrafo . strlen($paragrafo)?></p>
+    <p><?php echo trim($paragrafo) . ' ' . str_replace($parola, '***' , $paragrafo) . ' ' . strlen($paragrafo)?></p>
     <p><?php echo $parola?></p>
   </body>
 </html>
