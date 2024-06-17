@@ -1,5 +1,7 @@
 <?php
 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +10,16 @@
     <title>PHP</title>
   </head>
   <body>
-    
+    <form action="form.php" method="GET">
+      <div>
+        <label>Paragrafo</label>
+        <input type="text" name="paragrafo">
+      </div>
+      <div>
+        <label>Parola da censurare</label>
+        <input type="text" name="parola">
+      </div>
+      <button>Invia</button>
+    </form>
   </body>
 </html>

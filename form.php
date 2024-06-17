@@ -1,5 +1,10 @@
 <?php
 
+$paragrafo = $_GET['paragrafo'];
+$parola = $_GET['parola'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,6 +13,7 @@
     <title>Form PHP</title>
   </head>
   <body>
-    
+    <p><?php echo $paragrafo?></p>
+    <p><?php echo $parola?></p>
   </body>
 </html>
